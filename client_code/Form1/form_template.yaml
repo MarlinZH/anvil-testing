@@ -1,5 +1,9 @@
 components:
-- components: []
+- components:
+  - layout_properties: {grid_position: 'ATRQYM,QUHVPG'}
+    name: file_loader_1
+    properties: {}
+    type: FileLoader
   layout_properties: {slot: default}
   name: content_panel
   properties: {col_widths: '{}'}
