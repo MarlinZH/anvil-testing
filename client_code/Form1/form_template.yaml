@@ -17,6 +17,10 @@ components:
   name: navbar_links
   properties: {}
   type: FlowPanel
+- layout_properties: {slot: title}
+  name: text_box_1
+  properties: {text: XMind Converter}
+  type: TextBox
 container:
   properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate
